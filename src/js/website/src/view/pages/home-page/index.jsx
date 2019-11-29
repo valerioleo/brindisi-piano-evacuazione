@@ -66,6 +66,8 @@ const HomePage = () => {
     <LoadScript
       googleMapsApiKey='AIzaSyBvGm7crab9a19iT0cYs1PsovrKZ8GYcYU'
       libraries={['places']}
+      language='it'
+      region='IT'
     >
       <Response
         distance={distance}
@@ -84,6 +86,12 @@ const HomePage = () => {
         center={center}
         zoom={14}
         mapContainerStyle={{height: '500px'}}
+        options={{
+          mapTypeControl: false,
+          streetViewControl: false,
+          rotateControl: false,
+          fullscreenControl: false
+        }}
       >
         <Rifugi/>
         <Marker position={marker}/>
