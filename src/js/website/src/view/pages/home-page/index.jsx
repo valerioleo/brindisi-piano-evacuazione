@@ -5,15 +5,17 @@ import {
   Circle,
   Marker
 } from '@react-google-maps/api';
+import Typography from '@material-ui/core/Typography';
 import Autocomplete from './Autocomplete';
 import Response from './Response';
+import Footer from './Footer';
 import {Rifugi} from './POI';
 import BombIcon from '../../../../../../assets/icons/bomb.png';
 import {rifugi} from './markers';
 
 const HomePage = () => {
   const [circle, setCircle] = useState(null);
-  const [center] = useState({lat: 40.6270412, lng: 17.939837});
+  const [center] = useState({lat: 40.628618, lng: 17.941565});
   const [marker, setMarker] = useState(null);
   const [distance, setDistance] = useState(null);
   const [closestShelters, setClosestShelters] = useState([]);
@@ -72,6 +74,11 @@ const HomePage = () => {
       <Autocomplete
         onPlaceChanged={onPlaceChanged}
       />
+      <Typography>
+        <img
+          style={{height: '26px', marginRight: '10px'}}
+          src='http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png'
+        />Aree di accoglienza</Typography>
       <GoogleMap
         id="searchbox-example"
         center={center}
@@ -95,6 +102,7 @@ const HomePage = () => {
           }}
         />
       </GoogleMap>
+      <Footer/>
     </LoadScript>
   );
 };
