@@ -2,7 +2,7 @@
   "name": "brindisi-piano-evacuazione",
   "version": "1.0.0",
   "private": true,
-
+  "homepage": "https://valerioleo.github.io/brindisi-piano-evacuazione/",
   "workspaces": [
     "common",
     "website"

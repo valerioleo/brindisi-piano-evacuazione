@@ -6,23 +6,18 @@
   "main": "index.js",
   "scripts": {
     "start": "env-cmd ./.env webpack-dev-server --mode development",
-    "build": "env-cmd ./.env.production webpack --mode production"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/valerioleo/brindisi-piano-evacuazione.git"
+    "predeploy": "webpack --mode production",
+    "deploy": "gh-pages -d dist -b gh-pages"
   },
   "author": "Valerio Leo <mail.valerioleo@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/valerioleo/brindisi-piano-evacuazione/issues"
-  },
-  "homepage": "https://github.com/valerioleo/brindisi-piano-evacuazione#readme",
+  "homepage": "https://valerioleo.github.io/brindisi-piano-evacuazione/",
   "dependencies": {
     "@babel/runtime": "^7.5.5",
     "@material-ui/core": "^4.7.0",
     "@react-google-maps/api": "^1.7.12",
     "classnames": "^2.2.6",
+    "gh-pages": "^2.1.1",
     "immutable": "^4.0.0-rc.12",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
