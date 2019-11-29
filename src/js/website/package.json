@@ -6,12 +6,12 @@
   "main": "index.js",
   "scripts": {
     "start": "env-cmd ./.env webpack-dev-server --mode development",
-    "predeploy": "webpack --mode production",
+    "predeploy": "env-cmd ./.env.production webpack --mode production",
     "deploy": "gh-pages -d dist -b gh-pages"
   },
   "author": "Valerio Leo <mail.valerioleo@gmail.com>",
   "license": "MIT",
-  "homepage": "https://valerioleo.github.io/brindisi-piano-evacuazione/",
+  "homepage": "https://valerioleo.github.io/brindisi-piano-evacuazione",
   "dependencies": {
     "@babel/runtime": "^7.5.5",
     "@material-ui/core": "^4.7.0",

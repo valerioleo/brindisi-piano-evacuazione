@@ -55,7 +55,7 @@ const HomePage = () => {
       );
 
     setDistance(newDistance);
-    if(newDistance < 1600) {
+    if(newDistance < 1617) {
       setClosestShelters(findClosestPOIs(position, rifugi));
     }
   };
@@ -84,7 +84,7 @@ const HomePage = () => {
         <Circle
           onLoad={setCircle}
           center={center}
-          radius={1600}
+          radius={1617}
           options={{
             geodesic: true,
             strokeColor: '#FFd000',

@@ -193,7 +193,6 @@ module.exports = () => {
     ];
 
     config.entry.app = [...developmentEntries, ...config.entry.app];
-    // config.entry.admin = [...developmentEntries, ...config.entry.admin];
   }
 
   return config;

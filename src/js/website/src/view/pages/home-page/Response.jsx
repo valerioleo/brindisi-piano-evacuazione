@@ -21,7 +21,7 @@ const renderResponse = distance => {
         </Typography>
       );
       break;
-    case distance < 1600:
+    case distance < 1617:
       answer = (
         <Typography variant='subtitle1'>
           🏃‍ Sei distante <strong>{distance}</strong> metri
@@ -65,7 +65,7 @@ const renderResponse = distance => {
   return (
     <>
       {
-        distance > 1600
+        distance > 1617
           ? safeBox()
           : dangerBox()
       }
