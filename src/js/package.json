@@ -1,0 +1,20 @@
+{
+  "name": "brindisi-piano-evacuazione",
+  "version": "1.0.0",
+  "private": true,
+
+  "workspaces": [
+    "common",
+    "website"
+  ],
+  "devDependencies": {
+    "acorn-jsx": "^5.0.2",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
+  }
+}

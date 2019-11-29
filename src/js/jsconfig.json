@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "Common/*": ["../common/*"],
+      "CommonUI/*": ["../common-ui/src/*"],
+      "BitcoinUtils/*": ["../bitcoin-utils/*"],
+      "EthUtils/*": ["../eth-utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

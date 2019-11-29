@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "TokenSale/*": ["src/*"],
+      "Media/*": ["../../assets/media/*"],
+      "Common/*": ["../common/*"],
+      "CommonUI/*": ["../common-ui/src/*"], 
+      "BitcoinUtils/*": ["../bitcoin-utils/*"],
+      "EthUtils/*": ["../eth-utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

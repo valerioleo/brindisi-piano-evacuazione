@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    ["@babel/plugin-proposal-class-properties", {"loose": false}],
+    "@babel/plugin-syntax-object-rest-spread",
+    "syntax-async-functions",
+    "transform-inline-environment-variables"
+  ],
+
+  "presets": [
+    "@babel/preset-env"
+  ]
+}
