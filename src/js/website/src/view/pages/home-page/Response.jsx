@@ -5,7 +5,7 @@ const renderResponse = distance => {
   let answer;
 
   switch(true) {
-    case distance < 100:
+    case distance < 300:
       answer = (
         <Typography variant='subtitle1'>
           💩 Sei distante solo <strong>{distance}</strong>
@@ -16,7 +16,7 @@ const renderResponse = distance => {
     case distance < 500:
       answer = (
         <Typography variant='subtitle1'>
-          ☠️♂️ Sei distante solo <strong>{distance}</strong>
+          ☠️ Sei distante solo <strong>{distance}</strong>
           metri dalla bomba. Segui le procedure di sicurezza.
         </Typography>
       );

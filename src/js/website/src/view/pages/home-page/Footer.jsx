@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 const Footer = () => (
     <>
       <Typography gutterBottom variant='body2'>
-        Google Maps è un servizio a pagamento. Se i costi dovessero diventare proibitivi, il sito entrerà in blocco automatico.
+        I costi del servizio Google Maps sono attualmente coperti dallo sviluppatore. Se i costi dovessero diventare proibitivi, il sito entrerà in blocco automatico.
         Per fare in modo che tutti usufruiscano del servizio, effettua solo le ricerche strettamente necessarie 🙏🏻
       </Typography>
       <Typography variant='caption'>
@@ -14,6 +14,10 @@ const Footer = () => (
         indicativo e non si sostituisce in alcun modo alle comunicazioni ufficiali
         che rimangono la sola e unica fonte da tenere
         in considerazione per prendere decisioni corrette. <a href='https://github.com/valerioleo/brindisi-piano-evacuazione'>Il sito è distributio in open-source</a>.
+      </Typography>
+      <br/><br/>
+      <Typography variant='caption'>
+        Questo sito necessita cookies per funzionare. Puoi trovare una lista dei cookies nella <a href='https://brindisi-piano-evacuazione.web.app/cookies.html'>privacy policy</a>.
       </Typography>
     </>
 );

@@ -13,6 +13,8 @@ import {Rifugi} from './POI';
 import BombIcon from '../../../../../../assets/icons/bomb.png';
 import {rifugi} from './markers';
 
+const LIBRARIES = ['places'];
+
 const HomePage = () => {
   const [circle, setCircle] = useState(null);
   const [center] = useState({lat: 40.628618, lng: 17.941565});
@@ -60,12 +62,15 @@ const HomePage = () => {
     if(newDistance < 1617) {
       setClosestShelters(findClosestPOIs(position, rifugi));
     }
+    else {
+      setClosestShelters([]);
+    }
   };
 
   return (
     <LoadScript
       googleMapsApiKey='AIzaSyBvGm7crab9a19iT0cYs1PsovrKZ8GYcYU'
-      libraries={['places']}
+      libraries={LIBRARIES}
       language='it'
       region='IT'
     >
@@ -79,7 +84,7 @@ const HomePage = () => {
       <Typography>
         <img
           style={{height: '26px', marginRight: '10px'}}
-          src='http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png'
+          src='https://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png'
         />Aree di accoglienza</Typography>
       <GoogleMap
         id="searchbox-example"

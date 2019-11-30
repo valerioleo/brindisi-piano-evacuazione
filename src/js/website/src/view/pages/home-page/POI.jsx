@@ -7,7 +7,7 @@ export const Rifugi = () => rifugi.map(r => (
     key={r.name}
     position={r.coordinates}
     title={r.name}
-    icon='http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png'
+    icon='https://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png'
   />
 ));
 
