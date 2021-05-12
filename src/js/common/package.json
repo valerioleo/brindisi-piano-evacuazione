@@ -31,7 +31,7 @@
     "lodash.matchesproperty": "^4.7.0",
     "lodash.omit": "^4.5.0",
     "lodash.throttle": "^4.1.1",
-    "mathjs": "^6.2.1",
+    "mathjs": "^7.5.1",
     "minio": "^7.0.12",
     "neo4j-driver": "^1.7.6",
     "node-fetch": "^2.6.0",
