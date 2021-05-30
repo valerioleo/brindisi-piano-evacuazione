@@ -46,7 +46,7 @@
     "winston": "^3.2.1",
     "winston-daily-rotate-file": "^3.10.0",
     "winston-transport": "^4.3.0",
-    "ws": "^7.1.2"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
