@@ -46,7 +46,7 @@
     "dotenv": "^6.2.0",
     "env-cmd": "^8.0.2",
     "file-loader": "^2.0.0",
-    "node-sass": "^4.10.0",
+    "node-sass": "^7.0.0",
     "path": "^0.12.7",
     "react-hot-loader": "^4.12.12",
     "sass-loader": "^7.1.0",
