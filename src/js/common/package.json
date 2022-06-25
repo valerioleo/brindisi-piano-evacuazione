@@ -34,7 +34,7 @@
     "mathjs": "^6.2.1",
     "minio": "^7.0.12",
     "neo4j-driver": "^1.7.6",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "openid-client": "^3.7.3",
     "path": "^0.12.7",
     "pdf-puppeteer": "^1.1.8",
